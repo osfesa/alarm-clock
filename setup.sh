@@ -19,7 +19,9 @@ export AVR_TOOLS_DIR=/usr
 
 export BOARD_TAG=nano328
 export ARDUINO_PORT=/dev/ttyUSB0
-export ARDUINO_LIBS=LiquidCrystal
+export ARDUINO_LIBS= LiquidCrystal
+
+#export USER_LIB_PATH := $(PROJECT_DIR)/lib
 #include /usr/share/arduino/Arduino.mk
 
 make

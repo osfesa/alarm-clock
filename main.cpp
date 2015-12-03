@@ -1,6 +1,6 @@
 
 #include <Arduino.h>
-
+#include <LiquidCrystal.h>
 
 int main(void){
 
@@ -13,10 +13,9 @@ int main(void){
 //setup
 
     while(1)
-    { 
+    {
 
     }
 
 return 0;
 }
-
