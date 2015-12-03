@@ -6,10 +6,10 @@
 
 
 class Display
-    : public LiquidCrystal
+//    : public LiquidCrystal
 {
 public:
-    Display();
+    Display(){};
 
     void printLine1(char &msg);
     void printLine2(char &msg);
@@ -17,9 +17,9 @@ public:
 
 private:
 
-    const uint16_t _widht;
-    const uint16_t _height;
-    char *_msg;
+    //const uint16_t _widht = 16;
+    //const uint16_t _height = 2;
+    //char _msg[width][height];
 
 };
 
